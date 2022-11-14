@@ -364,8 +364,10 @@ header {
     margin: 0 auto;
 }
 
+/* TODO -- Fix Image. */
 .about-me__img {
     box-shadow: var(--bs);
+    height: 300px;
 }
 
 @media (min-width: 600px) {
