@@ -364,7 +364,6 @@ header {
     margin: 0 auto;
 }
 
-/* TODO -- Fix Image. */
 .about-me__img {
     box-shadow: var(--bs);
     height: 300px;
@@ -416,12 +415,16 @@ header {
 
 .portfolio {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
 .portfolio__item {
     background: var(--clr-accent);
     overflow: hidden;
+    max-width: 400px;
+    width: 100%;
+    height: 100%;
 }
 
 .portfolio__img {
