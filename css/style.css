@@ -264,6 +264,9 @@ header {
 
 .intro__img {
     box-shadow: var(--bs);
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
 }
 
 .portfolio__img__large {
@@ -296,6 +299,9 @@ header {
         min-width: 250px;
         position: relative;
         z-index: 2;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        padding: 5px;
     }
 
     .section__subtitle--intro {
@@ -304,7 +310,7 @@ header {
         grid-row: 2;
         text-align: right;
         position: relative;
-        left: -1.5em;
+        left: +1.5em;
         width: calc(100% + 1.5em);
     }
 }
